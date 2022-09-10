@@ -5,6 +5,7 @@
  * Description: using the main function
  * Return: (o)
  */
+int main(void)
 {
 	char c;
 	int i;
@@ -13,9 +14,9 @@
 	float f;
 
 	printf("size of a char: %ld byte(s)\n", sizeof(c));
-	printf("size of an int: %id bytes(s)\n", sizeof(i));
-	printf("size of a long int: %id bytes(s)\n", sizeof(li));
-	printf("size of a long long int: %id bytes(s)\n", sizeof(lli));
-	printf("size of a float: %id bytes(s)\n", sizeof(f));
+	printf("size of an int: %ld byte(s)\n", sizeof(i));
+	printf("size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("size of a long long int: %ld byte(s)\n", sizeof(lli));
+	printf("size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
 }

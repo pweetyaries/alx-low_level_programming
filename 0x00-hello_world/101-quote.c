@@ -3,8 +3,8 @@
 
 /**
 *
-* main-Entry point
-* Return: Always 1 (success)
+* main - print function
+* Return: 1 if success
 */
 int main(void)
 {

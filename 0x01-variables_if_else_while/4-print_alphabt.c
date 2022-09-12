@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char alx[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alx[52] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
-	for (i = 0; i < 52; i++)
+	for (i = 0; i < 52; i++);
 	{
 		putchar(alx[i]);
 	}

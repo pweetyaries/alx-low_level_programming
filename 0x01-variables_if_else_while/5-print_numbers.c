@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - print the function
  * Return: 0 if success
  */

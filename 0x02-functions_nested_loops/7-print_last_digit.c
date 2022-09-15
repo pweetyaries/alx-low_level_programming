@@ -1,10 +1,5 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
-
 #include <stdlib.h>
 #include "main.h"
-
-#endif
 
 /**
  * print_last_digit - Entrypoint

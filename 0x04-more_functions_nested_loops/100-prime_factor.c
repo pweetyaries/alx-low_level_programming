@@ -14,7 +14,8 @@ int main(void)
 	{
 		if (n % fp == 0)
 		{
-			n /= fp;fp--;
+			n /= fp;
+			fp--;
 		}
 	}
 	printf("%ld\n", fp);

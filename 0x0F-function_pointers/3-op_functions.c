@@ -8,7 +8,6 @@
  */
 
 int op_add(int a, int b)
-
 {
 	return (a + b);
 }
@@ -30,7 +29,7 @@ int op_sub(int a, int b)
  * @a: first number.
  * @b: second number.
  * Return: multiplication.
-*/
+ */
 
 int op_mul(int a, int b)
 {

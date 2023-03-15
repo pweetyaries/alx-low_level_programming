@@ -4,7 +4,7 @@
 /**
  * str_concat - concatenates two strings.
  * @s1 - The string to be concatenated upon.
- * @s2 - The string to be concatenated to s1	
+ * @s2 - The string to be concatenated to s1.
  *
  * Return: If concatenates fails - NULL.
 */
@@ -31,7 +31,7 @@ char *str_concat(char *s1, char *s2)
 		concat_str[concat_index++] = s1[index];
 
 	for (index = 0; s2[index]; index++)
-		concat_str[concat_index++] =s2[index];
+		concat_str[concat_index++] = s2[index];
 
 	return (concat_str);
 }
